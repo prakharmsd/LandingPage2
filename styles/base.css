@@ -1,0 +1,100 @@
+header {
+    background-color: #f8f8f8;
+}
+
+ul {
+    padding-top: 10px;
+}
+
+header li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header a {
+    color: #777;
+    font-weight: bold;
+}
+
+.brand {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#intro-header {
+    background-image: url(../img/landscape.jpg);
+    background-size: cover;
+}
+
+.wrap-headline {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#intro-header h1, #intro-header h2 {
+    color: #fff;
+}
+
+#intro-header h2 {
+    font-size: 1.5rem;
+}
+
+#intro-header hr {
+    width: 10%;
+    border-color: white;
+}
+
+#intro-header .btn-default {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+#about img {
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#seperator {
+    border-color: lightgray;
+}
+
+#about h3 {
+    margin-top: 4.5rem;
+}
+
+#features {
+    background-color: #eef2f5;
+    color: darkcyan;
+    text-align: center;
+}
+
+.features {
+    padding-top: 2rem;
+}
+
+.white-text {
+    color: white;
+}
+
+footer {
+    margin-top: 1.5rem;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+footer strong, footer h5 {
+    color: white;
+}
+
+footer a, footer address, footer li {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.price-heading {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
