@@ -4,147 +4,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-2</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-    <style>
-        img {
-            width: 100%;
-        }
-
-        li {
-            float: left;
-            margin-right: 20px;
-
-        }
-
-        #res {
-            margin-top: 50%;
-        }
-
-        #center {
-            text-align: center;
-        }
-    </style>
+    <title>Hello World</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/base.css">
 </head>
 
 <body>
-    <div class="jumbotron">
+    <header>
         <div class="container">
-            <!-- 1st row -->
+            <!-- row - 1 -->
             <div class="row">
-                <div class="col-md-4" style="text-align: left;">
-                    <h4>Company Name</h4>
-                </div>
-                <!-- <div class="col-md-offset-1"></div> -->
-                <div class="col-md-2" style="text-align: right;">
-                    <a href="#"><strong>About</strong></a>
-                </div>
-                <div class="col-md-2" style="text-align: right;">
-                    <a href="#"><strong>Features</strong></a>
-                </div>
-                <div class="col-md-2" style="text-align: right;">
-                    <a href="#"><strong>Pricing</strong></a>
-                </div>
-                <div class="col-md-2" style="text-align: right">
-                    <a href="#"><strong>About</strong></a>
+                <!-- Brand -->
+                <div class="col-md-12">
+                    <a class="brand float-md-left" href="#">Company name</a>
+                    <ul class="list-unstyled list-inline float-md-right">
+                        <li class="list-inline-item"><a href="#">About</a></li>
+                        <li class="list-inline-item"><a href="#">Features</a></li>
+                        <li class="list-inline-item"><a href="#">Pricing</a></li>
+                        <li class="list-inline-item"><a href="#">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-            <!-- 2nd row -->
+        </div>
+    </header>
+    <section id="intro-header">
+        <!-- 2nd row -->
+        <div class="container">
             <div class="row">
-                <div class="col-md-12 text-md-center p-5">
-                    <h1>Company Name</h1>
-                    <h5>
-                        Heading Message
-                    </h5><br>
-                    <a href="#" class="btn btn-primary btn-lg">Twitter</a>
-                    <a href="#" class="btn btn-danger btn-lg">Facebook</a>
+                <div class="col-md-12">
+                    <div class="wrap-headline">
+                        <h1 class="text-center">Company Name</h1>
+                        <h2 class="text-center">Heading Message</h2>
+                        <hr>
+                        <ul class="list-inline list-unstyled text-center">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn btn-default btn-lg">Sign In</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn btn-primary btn-lg">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
             <!-- 3rd row -->
             <div class="row">
-                <div class="col-md-4">
-                    <img src="https://picsum.photos/id/237/536/354" class="img-responsive">
-                    <br /><br>
-                    <h3>Headline</h3>
-                    <p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex dolorum
-                        saepe corrupti sapiente
-                        earum iste consequuntur, id voluptatibus similique facilis ea quas, enim quae, dolore fuga
-                        delectus cupiditate asperiores itaque.
-                    </p>
+                <div class="col-sm-6">
+                    <img src="./img/mock_ipad.jpg" class="img-responsive">
                 </div>
-                <div class="col-md-4">
-                    <h4>Headline</h4>
-                    <p style="text-align: justify;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestiae ratione eligendi
-                        repudiandae impedit tenetur aperiam, officia animi sint inventore odio numquam? Quod iure sequi
-                        inventore quaerat quasi nam deserunt?
+                <div class="col-sm-6">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus molestias fuga amet unde
+                        omnis
+                        alias recusandae, aperiam quia maiores quis iusto nemo dolore minus doloremque commodi sequi.
+                        Facilis, quos pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quam
+                        aspernatur fuga unde earum! Vel facilis, assumenda quam inventore nam repellat velit aspernatur
+                        odit
+                        a nemo, debitis rerum ullam omnis.
                     </p>
-                </div>
-                <div class="col-md-4">
-                    <img src="https://picsum.photos/seed/picsum/536/354" class="img-responsive" id="res">
                 </div>
             </div>
+            <hr id="seperator">
             <!-- 4th row -->
             <div class="row">
-                <div class="col-md-4">
-                    <h3 id="res">Feature 1</h3><br><br>
-                    <h3>Feature 4</h3>
+                <div class="col-md-6">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus molestias fuga amet unde
+                        omnis
+                        alias recusandae, aperiam quia maiores quis iusto nemo dolore minus doloremque commodi sequi.
+                        Facilis, quos pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quam
+                        aspernatur fuga unde earum! Vel facilis, assumenda quam inventore nam repellat velit aspernatur
+                        odit
+                        a nemo, debitis rerum ullam omnis.
+                    </p>
                 </div>
-                <div class="col-md-4">
-                    <h2 id="center">Headline</h2>
-                    <h5 id="center">Features Heading Message</h5>
-                    <h3 id="center" style="margin-top: 29%;">Feature 2</h3><br><br>
-                    <h3 id="center">Feature 5</h3>
+                <div class="col-md-6">
+                    <img src="./img/mock_nexus.jpg" class="img-responsive">
                 </div>
-                <div class="col-md-4">
-                    <h3 id="res" style="text-align: right;">Feature 3</h3>
-                    <br><br>
-                    <h3 style="text-align: right;">Feature 6</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h3>Features</h3>
+                    <p>Features Headline Message</p>
                 </div>
-            </div><br>
-            <!-- 5th row -->
+            </div>
+
+            <!-- row-6 -->
+
             <div class="row">
-                <div class="col-md-1 col-md-offset-1"></div>
-                <div class="col-md-10">
-                    <h2 id="center">Price Table</h2>
-                    <table class="table table-hover table-bordered table-striped " style="text-align: center;">
+                <div class="col-md-sm-2 col-md-4 ">
+                    <div class="features">Feature 1</div>
+                </div>
+                <div class="col-md-sm-2 col-md-4 ">
+                    <div class="features">Feature 2</div>
+                </div>
+                <div class="col-md-sm-2 col-md-4 ">
+                    <div class="features">Feature 3</div>
+                </div>
+                <div class="col-md-sm-2 col-md-4 ">
+                    <div class="features">Feature 4</div>
+                </div>
+                <div class="col-md-sm-2 col-md-4 ">
+                    <div class="features">Feature 5</div>
+                </div>
+                <div class="col-md-sm-2 col-md-4 ">
+                    <div class="features">Feature 5</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="text-center price-heading">
+                        Price Table
+                    </h3>
+                </div>
+            </div>
+            <!-- row 8 -->
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10 col-sm-offset-1">
+                    <table class="table table-bordered table-striped table-hover">
                         <thead>
                             <tr>
                                 <th class="bg-success">
-                                    <h4>Free Plan</h4>
+                                    <h4 class="text-center">Free Plan</h4>
                                 </th>
                                 <th class="bg-info">
-                                    <h4>Standard Plan</h4>
+                                    <h4 class="text-center">Standard Plan</h4>
                                 </th>
                                 <th class="bg-danger">
-                                    <h4>Premium Plan</h4>
+                                    <h4 class="text-center">Premium Plan</h4>
                                 </th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="text-center">
                             <tr>
-                                <td>$ 0</td>
-                                <td>$ 99</td>
-                                <td>$ 999</td>
+                                <td class="bg-success">
+                                    <h4 class="text-center text-white">
+                                        $0
+                                    </h4>
+                                </td>
+                                <td class="bg-info">
+                                    <h4 class="text-center text-white">
+                                        $99
+                                    </h4>
+                                </td>
+                                <td class="bg-danger">
+                                    <h4 class="text-center text-white">
+                                        $999
+                                    </h4>
+                                </td>
                             </tr>
                             <tr>
-                                <td>Lorem ipsum</td>
-                                <td>Lorem ipsum</td>
-                                <td>Lorem ipsum</td>
+                                <td>lorem ipsum</td>
+                                <td>lorem ipsum</td>
+                                <td>lorem ipsum</td>
                             </tr>
                             <tr>
-                                <td>Dolor ipsum</td>
-                                <td>Lorem ipsum</td>
-                                <td>Lorem ipsum</td>
+                                <td>lorem ipsum</td>
+                                <td>lorem ipsum</td>
+                                <td>lorem ipsum</td>
                             </tr>
                             <tr>
-                                <td>Dolor ipsum</td>
+                                <td>lorem ipsum</td>
+                                <td>lorem ipsum</td>
+                                <td>lorem ipsum</td>
+                            </tr>
+                            <tr>
+                                <td>lorem ipsum</td>
+                                <td>lorem ipsum</td>
+                                <td>lorem ipsum</td>
+                            </tr>
+                            <tr>
+                                <td>Dolor sit amet</td>
                                 <td>Lorem ipsum</td>
                                 <td>Lorem ipsum</td>
                             </tr>
                             <tr>
                                 <td>-</td>
-                                <td>Lorem ipsum</td>
+                                <td>Dolor sit amet</td>
                                 <td>Lorem ipsum</td>
                             </tr>
                             <tr>
@@ -153,22 +206,74 @@
                                 <td>Lorem ipsum</td>
                             </tr>
                             <tr>
-                                <td><a href="#" class="btn btn-success btn-block">Purchase</a></td>
-                                <td><a href="#" class="btn btn-info btn-block">Purchase</a></td>
-                                <td><a href="#" class="btn btn-danger btn-block">Purchase</a></td>
+                                <td>
+                                    <a href="#" class="btn btn-success btn-block">Purchase</a>
+                                </td>
+                                <td>
+                                    <a href="#" class="btn btn-info btn-block">Purchase</a>
+                                </td>
+                                <td>
+                                    <a href="#" class="btn btn-danger btn-block">Purchase</a>
+                                </td>
                             </tr>
-                            </th>
-                            </tr>
+                        </tbody>
                     </table>
                 </div>
-                <div class="col-md-offset-1 col-md-offset-1"></div>
-                <h3>Contact</h3>
             </div>
         </div>
-    </div>
-    </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="./img/logo.png" class="img-responsive" width="100%">
+                </div>
+                <div class="col-sm-2">
+                    <h5>
+                        The Company
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li>Dcumentation</li>
+                        <li>Packt Publisher</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>
+                        Social
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li ><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>
+                        Support
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Help Desk</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                        <address>
+                            <strong>Name, Inc.</strong><br><br>
+                            Address Line 1<br/>
+                            Address Line 2<br/>
+                            <abbr title="Phone">P:</abbr>
+                            (123) 456-7890
+                        </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 
